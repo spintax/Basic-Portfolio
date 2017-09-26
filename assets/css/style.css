@@ -1,6 +1,5 @@
 html {
     margin: auto;
-    background-image: url("vintage-concrete.png");
 }
 
 body {
@@ -119,6 +118,11 @@ h1 {
     border-style: none;
     background-color: #dddddd;
 }
+
+.projects {
+    .height: 800px;
+}
+    
     
 
 #professional {
@@ -135,6 +139,7 @@ p {
     padding: 20px;
     margin-bottom: 0;
     position: static;
+    margin-top: 0;
 }
 
 .sidelink {
@@ -197,4 +202,9 @@ footer {
     margin-top: 0;
     border-top: 10px solid #4aaaa5;
 }
+
+@media screen and (max-width: 768px) {
+    .panel {
+      background-color: #333;
+    }
 
